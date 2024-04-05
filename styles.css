@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+}
+
+.principal {
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: #20207d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.div_nav {
+    width: 100%;
+
+}
+
+nav {
+    background-color: #8f8fff;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+header p {
+    margin: 0;
+}
+
+.textos {
+    background-color: antiquewhite;
+    /*MOSTRAR PROFESSOR SEM MARGIN E PADDING*/
+    margin: 0;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.titulo {
+    color: #4c17c9;
+    font-family: 'satisfy';
+}
+
+.menu {
+    background-color: antiquewhite;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+a{ 
+    font-family: 'satisfy';
+    color: #4c17c9;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#informativo {
+    color: aliceblue;
+}
+
+hr {
+    margin: 0 10px;
+    height: 15px;
+    width: 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 1px;
+}
